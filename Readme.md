@@ -1,0 +1,7 @@
+# Water Supply Updater
+This is a project built for a freelance client who graciously let me share the code as a portfolio item. It's being used to save an estimated ~$70/week in labor costs related to data entry & calculation.
+It Scrapes data from [California Data Exchange Center](cdec.water.ca.gov) for the last week and formats it into a human-readable string, plus does some math to work out important values. It's used in a production role as an internal tool for a consulting firm in Fresno, CA as a way to speed creation of a weekly newsletter.
+### Try It Out
+If you'd like to see it live, check it out at (http://wsu-summary.us-west-2.elasticbeanstalk.com/ORO) - The app scrapes CDEC every time it loads, and unfortunately CDEC isn't very reliable. The project requirements didn't require perfect reliability so long as it worked eventually, so if you hit a server error, refresh or come back in a few minutes.
+### Potential Employers
+The code featured here was written in ~ March 2018, two months after I started learning to program. I'm proud that I built a project this complex so early into my education, but the quality of code you see here is not representative of my current skill. At the time I was in a bootcamp for front-end web development, and I'd never been taught anything about server-side code. This project was born of bluster, trial/error, and sheer will, as opposed to careful planning or proper methodologies. Take that as you will.
